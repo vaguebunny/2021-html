@@ -1,0 +1,116 @@
+body{
+	font-family: Arial, "Times New Roman", serif;
+	color: #FFFFFF;
+	margin: 4%;
+	background-color: #483766;
+}
+
+header, footer{
+	text-align: center;
+	background-color: #9977BB;
+	background: -moz-linear-gradient(top, #212121 10%, #9977BB 100%);
+	background: -webkit-linear-gradient(#212121 10%, #9977BB 100%);
+	background: -o-linear-gradient(#212121 10%, #9977BB 100%);
+	background: linear-gradient(#212121 10%, #9977BB 100%);
+
+}
+
+header{
+	font-variant: small-caps;
+	padding:  15px;
+}
+
+h1{
+	font-size: 150%;
+	background: #CCAADD;
+}
+
+nav a{
+	font-size: 110%;
+	display: inline-block;
+	font-weight: bold;
+	color: #D0F6FF;
+	background-color: #CCAADD;
+	width: 22%;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	margin: 0 auto;
+	margin-top:  10px;
+}
+
+a:hover{
+	background: #D0F6FF;
+	color: #6D4A91;
+}
+
+a:focus{
+	background: #D0F6FF;
+	color: #6D4A91;
+}
+
+a:active{
+	border: 3px solid: #000000;
+}
+
+a:visited{
+
+}
+
+h2{
+	font-size: 110%;
+	text-align: center;
+	font-variant: small-caps;
+	background: #CCAADD;
+}
+
+section{
+	background:  #9977BB;
+	height: 200px;
+	padding: 1%;
+	overflow: auto;
+	/** overflow = scrollbar when too small**/
+}
+
+.half{
+	width: 45%;
+	margin: 0.5% auto;
+	display: inline-block;
+	float: all;
+}
+
+.whole{
+	clear: both;
+	margin: 0.5% auto;
+}
+
+ul{
+	list-style-type: square;
+	/**
+	 * need to learn to resize list-style-image
+	 * 
+	 * list-style-image: url("../images/star.png");
+		check url for more info on how-to: https://stackoverflow.com/questions/7775594/css-list-style-image-size;
+}
+	/**
+	 * wait for css selectors to add font awesome icons to css
+	 * list-style-image: circle url(<i class="fas fa-star"></i>);**/
+}
+
+details{
+	font-style: italic;
+
+}
+
+summary{
+	font-style: normal;
+}
+
+footer{
+	padding: 0.5%;
+}
+
+
+img{
+	width: 75px;
+}
